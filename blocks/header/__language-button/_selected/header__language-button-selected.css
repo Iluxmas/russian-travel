@@ -1,0 +1,4 @@
+.header__language-button_selected {
+  border-bottom: 1px solid #ffffff;
+  cursor: default;
+}

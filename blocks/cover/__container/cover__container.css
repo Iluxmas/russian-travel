@@ -1,0 +1,17 @@
+.cover__container {
+    position: relative;
+    margin: 0;
+    height: fit-content;
+}
+
+@media (min-width: 1024px) {
+    .cover__container {
+        margin: 0 calc(48 * (100vw - 1024px) / 256);
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__container {
+        margin: 0 auto;
+    }
+}

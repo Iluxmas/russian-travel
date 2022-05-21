@@ -1,0 +1,22 @@
+.description__header {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 320px) {
+    .description__header {
+        font-size: calc(32px + 22 * (100vw - 320px) / 448);
+        width: calc(288px + 432 * (100vw - 320px) / 448);
+        line-height: calc(35px + 23 * (100vw - 320px) / 448);
+    }
+}
+
+@media (min-width: 768px) {
+    .description__header {
+        font-size: 54px;
+        line-height: 58px;
+        max-width: 720px;
+    }
+}

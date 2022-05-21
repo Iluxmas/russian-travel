@@ -1,0 +1,14 @@
+.footer__menu-item {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 690px) {
+    .footer__menu-item {
+        display: inline;
+        margin-bottom: 0;
+    }
+
+    .footer__menu-item:not(:last-of-type) {
+        margin-right: 18px;
+    }
+}

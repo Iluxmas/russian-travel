@@ -1,0 +1,14 @@
+.cover__link-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .cover__link-text {
+        width: 600px;
+    }
+}

@@ -1,0 +1,18 @@
+.article__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 894px) {
+    .article__paragraph {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+}
+
+.article__paragraph:last-of-type {
+    margin-bottom: 0;
+}

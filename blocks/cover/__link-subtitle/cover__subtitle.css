@@ -1,0 +1,17 @@
+.cover__link-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 288px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .cover__link-subtitle {
+        width: 360px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

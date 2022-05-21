@@ -1,0 +1,30 @@
+.footer__container {
+    height: 310px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 16px;
+    padding-top: 64px;
+}
+
+@media (min-width: 690px) {
+    .footer__container {
+        flex-direction: row;
+        height: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__container {
+        margin: 0 calc(24px + 24 * (100vw - 768px) / 256);
+        padding-top: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__container {
+        margin: 0 48px;
+        padding-top: 92px;
+    }
+}

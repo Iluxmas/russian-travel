@@ -1,0 +1,12 @@
+.article__source-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #ffffff;
+    text-decoration-line: none;
+}
+
+.article__source-link:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.places__container {
+    padding-top: 64px;
+    padding-bottom: 66px;
+    margin: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .places__container {
+        margin: 0 calc(24px + 24 * (100vw - 768px) / 256);
+        padding-top: 88px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .places__container {
+        margin: 0 calc(48px + 100 * (100vw - 1024px) / 256);
+        padding: 92px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .places__container {
+        margin: 0 auto;
+    }
+}

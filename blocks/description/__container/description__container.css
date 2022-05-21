@@ -1,0 +1,30 @@
+.description__container {
+    margin: 0 16px;
+    padding: 64px 0;
+}
+
+@media (min-width: 768px) {
+    .description__container {
+        margin: 0 24px;
+        padding: 88px 0;
+    }
+}
+
+@media (min-width: 896px) {
+    .description__container {
+        margin: 0 calc(24px + 24 * (100vw - 896px) / 128);
+    }
+}
+
+@media (min-width: 1024px) {
+    .description__container {
+        margin: 0 48px;
+        padding: 92px 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .description__container {
+        margin: 0 auto;
+    }
+}
