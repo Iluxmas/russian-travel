@@ -1,11 +1,4 @@
 .article__image {
-    width: calc(100% + 32px);
-    margin-left: -16px;
-}
-
-@media (min-width: 544px) {
-    .article__image {
-        width: 100%;
-        margin: 0;
-    }
+    width: 100%;
+    /* без отрицательного margin-left - не изящно :[ +25 строк кода и один новый файл css */
 }

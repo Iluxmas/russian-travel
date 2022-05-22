@@ -1,7 +1,13 @@
 .places__container {
     padding-top: 64px;
     padding-bottom: 66px;
-    margin: 0 16px;
+    margin: 0;
+}
+
+@media (min-width: 544px) {
+    .places__container {
+        margin: 0 16px;
+    }
 }
 
 @media (min-width: 768px) {

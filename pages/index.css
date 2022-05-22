@@ -1,4 +1,5 @@
 @import url(../vendors/normalize.css);
+@import url(../vendors/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/container-narrow/container-narrow.css);
@@ -7,6 +8,7 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-selector/header__language-selector.css);
+@import url(../blocks/header/__language-item/header__language-item.css);
 @import url(../blocks/header/__language-button/header__language-button.css);
 @import url(../blocks/header/__language-button/_selected/header__language-button-selected.css);
 @import url(../blocks/main/main.css);
@@ -23,7 +25,6 @@
 @import url(../blocks/description/__facts-list/description__facts-list.css);
 @import url(../blocks/description/__fact/description__fact.css);
 @import url(../blocks/description/__fact-accent/description__fact-accent.css);
-@import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__container/gallery__container.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/places/places.css);
@@ -34,6 +35,7 @@
 @import url(../blocks/article/__source-header/article__source-header.css);
 @import url(../blocks/article/__source-link/article__source-link.css);
 @import url(../blocks/article/__image/article__image.css);
+@import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__paragraph/article__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__container/cover__container.css);
@@ -41,7 +43,7 @@
 @import url(../blocks/cover/__link-bcg/cover__link-bcg.css);
 @import url(../blocks/cover/__link-text/cover__link-text.css);
 @import url(../blocks/cover/__link-title/cover__link-title.css);
-@import url(../blocks/cover/__link-subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__link-subtitle/cover__link-subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__menu-list/footer__menu-list.css);

@@ -1,5 +1,4 @@
 .footer__container {
-    height: 310px;
     padding-bottom: 24px;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,6 @@
 @media (min-width: 690px) {
     .footer__container {
         flex-direction: row;
-        height: 18px;
     }
 }
 
