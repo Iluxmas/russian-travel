@@ -8,8 +8,8 @@
   box-sizing: content-box;
 }
 
-.header__language-button:hover {
-  border-bottom: 1px solid #ffffff;
+.header__language-button:not(.header__language-button_selected):hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {

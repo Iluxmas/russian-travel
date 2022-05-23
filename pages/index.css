@@ -39,8 +39,6 @@
 @import url(../blocks/article/__paragraph/article__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__container/cover__container.css);
-@import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__link-bcg/cover__link-bcg.css);
 @import url(../blocks/cover/__link-text/cover__link-text.css);
 @import url(../blocks/cover/__link-title/cover__link-title.css);
 @import url(../blocks/cover/__link-subtitle/cover__link-subtitle.css);
