@@ -1,25 +1,19 @@
 @font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "Inter";
-  // адрес шрифта и тип 
   src: url("../vendors/Inter-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "Inter";
-  // адрес шрифта и тип 
   src: url("../vendors/Inter-Bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "Inter";
-  // адрес шрифта и тип 
   src: url("../vendors/Inter-Black.woff") format("woff");
   font-style: normal;
   font-weight: 900;
@@ -27,8 +21,8 @@
 
 .body {
   color: #ffffff;
-  font-family: 'Inter', 'Arial', sans-serif;
-  background: #2A2C2F repeat;
+  font-family: "Inter", "Arial", sans-serif;
+  background: #2a2c2f repeat;
   font-size: 16px;
   font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
@@ -128,7 +122,6 @@
 // -------------------LEAD BLOCK-----------------------
 
 .lead {
-
   &__container {
     max-width: 100%;
     margin: 0;
@@ -151,7 +144,6 @@
       margin: 0 auto;
       padding-top: 56px;
     }
-
   }
 
   &__title {
@@ -169,8 +161,6 @@
       line-height: 100px;
       margin-bottom: 32px;
     }
-
-
   }
 
   &__subtitle {
@@ -259,7 +249,6 @@
       line-height: 58px;
       max-width: 720px;
     }
-
   }
 
   &__paragraph {
@@ -352,7 +341,6 @@
       margin: 0 auto;
     }
   }
-
 }
 
 .article {
@@ -407,7 +395,7 @@
       font-size: 12px;
       line-height: 12px;
       letter-spacing: 2px;
-      color: #AAAAAA;
+      color: #aaaaaa;
       margin: 0;
       margin-bottom: 12px;
     }
@@ -416,12 +404,12 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      color: #FFFFFF;
+      color: #ffffff;
       border-bottom: 1px solid #ffffff;
       text-decoration-line: none;
 
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
       }
     }
   }
@@ -534,15 +522,13 @@
       width: 100%;
       opacity: 0.7;
       z-index: -1;
-      transition: opacity .3s ease;
+      transition: opacity 0.3s ease;
     }
-
   }
 
   &__link:hover .cover__link-bcg {
     opacity: 0.2;
   }
-
 }
 
 // -------------------FOOTER BLOCK-----------------------
@@ -550,7 +536,6 @@
 .footer {
   margin: 0 auto;
   height: fit-content;
-
 
   &__container {
     height: 310px;
@@ -600,11 +585,11 @@
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
     }
 
     @media (min-width: 690px) {
@@ -625,7 +610,6 @@
 }
 
 // npx sass --watch sass/style.scss:css/style.css
-
 
 ::-webkit-scrollbar {
   display: none;
