@@ -10,4 +10,4 @@ For styles SCSS was used with further conversion to css.
 
 **GitHub**
 
-[Link to GitHub Pages](https://iluxmas.github.io/russian-travel/index.html)
+[Link to GitHub Pages](https://iluxmas.github.io/russian-travel/index.html) (use CTRL+click or ⌘+click to open in new tab)
